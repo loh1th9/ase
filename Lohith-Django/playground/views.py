@@ -7,4 +7,4 @@ def calculate():
     return x
 def say_hello(request):
     x=calculate()
-    return render(request, "hello.html",{'name':"Lokesh"})
+    return render(request, "hello.html",{'name':"Bheem"})
